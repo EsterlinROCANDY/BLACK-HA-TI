@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rechargement Mobile - Haïti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Rechargement Haïti</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#services">Recharger maintenant</a></li>
+        <li><a href="#promotions">Promotions</a></li>
+        <li><a href="#carte-cadeau">Carte Cadeau</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contactez-nous</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <h2>Rechargez vos crédits en ligne</h2>
+    <p>Simplicité, rapidité et sécurité pour recharger votre téléphone et vos services préférés.</p>
+  </section>
+
+  <section id="services">
+    <h2>Recharger maintenant</h2>
+    <form id="recharge-form">
+      <label for="numero">Numéro de téléphone :</label>
+      <input type="text" id="numero" name="numero" placeholder="Entrer le numéro" required>
+
+      <label for="operateur">Choisir un opérateur :</label>
+      <select id="operateur" name="operateur" required>
+        <option value="digicel">Digicel</option>
+        <option value="natcom">Natcom</option>
+      </select>
+
+      <label for="montant">Montant :</label>
+      <select id="montant" name="montant" required>
+        <option value="100">100💎 + Bonus 10 = 155G</option>
+        <option value="200">200💎 + Bonus 20 = 310G</option>
+        <option value="310">310💎 + Bonus 31 = 480G</option>
+        <option value="410">410💎 + Bonus 41 = 635G</option>
+        <option value="520">520💎 + Bonus 52 = 800G</option>
+        <option value="1060">1060💎 + Bonus 100 = 1700G</option>
+      </select>
+
+      <button type="submit">Recharger</button>
+    </form>
+  </section>
+
+  <section id="promotions">
+    <h2>Promotions</h2>
+    <div class="promo">
+      <h3>Free Fire</h3>
+      <ul>
+        <li>100💎 + Bonus 10 = 155G</li>
+        <li>200💎 + Bonus 20 = 310G</li>
+      </ul>
+      <h3>Call of Duty</h3>
+      <ul>
+        <li>80CP = 225G</li>
+        <li>420CP = 1049G</li>
+      </ul>
+      <h3>PUBG</h3>
+      <ul>
+        <li>60UC = 217G</li>
+        <li>325UC = 1035G</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="carte-cadeau">
+    <h2>Carte Cadeau</h2>
+    <div class="cartes">
+      <h3>Netflix</h3>
+      <p>500G / mois</p>
+
+      <h3>Disney+</h3>
+      <p>500G / mois</p>
+
+      <h3>Amazon Prime</h3>
+      <p>500G / mois</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <p>Consultez les réponses à vos questions fréquentes.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <form id="contact-form">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 - Rechargement Haïti. Tous droits réservés.</p>
+  </footer>
+</body>
+      </html>
